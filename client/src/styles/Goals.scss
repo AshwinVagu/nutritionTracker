@@ -1,0 +1,67 @@
+.goals-container {
+    display: flex;
+
+    .goals-body {
+        flex: 1;
+
+        .goal-for-day {
+            padding: 20px 45px;
+
+            h3 {
+                color: #799093;
+            }
+
+            .goal-input {
+                display: flex;
+                gap: 15px;
+
+                .defined-goal {
+                    box-sizing: border-box;
+                    width: 180px;
+                    height: 110px;
+                    font-size: 50px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: #d9d9d9;
+                    border-radius: 6px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: cadetblue;
+                    color: white;
+                    cursor: pointer;
+                    transition: transform 0.2s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+
+                .custom-input::placeholder {
+                    font-size: 40px;
+                }
+
+                input {
+                    width: 180px;
+                    height: 110px;
+                    font-size: 50px;
+                }
+            }
+        }
+
+        .past-goals {
+            padding: 20px 45px;
+
+            h3 {
+                color: #799093;
+            }
+
+
+        }
+    }
+}
+
+.modal-label{
+    margin: 0;
+    padding: 0;
+}

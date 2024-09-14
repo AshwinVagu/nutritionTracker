@@ -1,0 +1,25 @@
+.etl-container {
+    display: flex;
+
+
+    .etl-body {
+        padding: 10px 45px;
+
+        h3 {
+            color: #799093;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .etl-form {
+            width: 300px;
+
+            .uploadButton {
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,73 @@
+.navbar-container {
+    height: 50px;
+    background-color: white;
+    padding: 14px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+
+    .navbar-logo {
+        height: 100%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .headerImage{
+        width: 8%;
+        overflow: hidden;
+    }
+
+    .navbar-options {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 1.25rem;
+
+        .anticon {
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        .profile-dropdown {
+            svg {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.ant-popover-inner {
+    padding: 0 !important;
+}
+
+.ant-popover {
+    max-width: 300px;
+}
+
+.notification-list {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.notification-item {
+    margin: 2px;
+    padding: 8px;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+
+    &.unread {
+        background-color: #d9d9d9;
+    }
+
+    &.read {
+        background-color: #fafafa;
+    }
+
+    .notification-item-content {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}

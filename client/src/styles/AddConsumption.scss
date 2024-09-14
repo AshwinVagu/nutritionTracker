@@ -1,0 +1,36 @@
+.add-consumtion-container {
+    padding: 20px 45px;
+
+    h3 {
+        color: #799093;
+    }
+
+    .add-consumption-form {
+        padding: 20px 0;
+
+        // input {
+        //     border: none;
+        //     border-radius: 0;
+        //     border-bottom: 1px solid black;
+        // }
+    }
+
+    table {
+        th {
+            font-size: 18px;
+        }
+
+        td {
+            font-size: 14px;
+        }
+    }
+}
+
+.ant-modal-body input {
+    margin: 12px 0;
+}
+
+.modal-label{
+    margin: 0;
+    padding: 0;
+}

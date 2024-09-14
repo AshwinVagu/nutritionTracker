@@ -1,0 +1,93 @@
+.BMI-container{
+    display: flex;
+    width: 100%;
+
+    .helpertext{
+        margin-left: 6%;
+        margin-top: 2px;
+        margin-bottom: 2%;
+        font-size: 14px;
+        width: 100%;
+
+    }
+
+    .formContainerDiv{
+        
+    }
+
+    form{
+        max-width: 50%;
+
+        .inputLabel{
+            margin-left: 14%;
+            display: block;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+            .inputElem{
+                float: right;
+                padding: 5px    ;
+            }
+    
+        }
+
+        .formButton{
+            margin-top: 5%;
+            margin-left: 35%;
+            padding: 10px;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+
+        }
+    }
+
+    .displayBMI{
+        margin-left: 6%;
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        font-style: italic;
+
+        .blueText{
+            color: blue;
+            font-weight: bold;
+        }
+
+        .redText{
+            color: red;
+            font-weight: bold;
+        }
+    }
+
+    .currentBMI{
+        padding: 10px;
+        padding-bottom: 0;
+        margin-left: 5%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        width: 100%;
+
+        .blueText{
+            color: blue;
+        }
+    
+    }
+    .topElement{
+        margin-top: 5%;
+    }
+
+    .categories{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 15px;
+        margin-top: 0;
+
+        ul{
+            margin-left: 10px;
+            margin-top:0;
+        }
+    }
+    
+}

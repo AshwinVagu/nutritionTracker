@@ -1,0 +1,12 @@
+.dashboard-container {
+    display: flex;
+
+    .progress-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .dashboard-body {
+        flex: 1;
+    }
+}
