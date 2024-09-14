@@ -26,20 +26,20 @@ WellnessWise - A health app that helps a user adjust his daily routine and make 
 6. Corporates: Companies interested in monitoring their employees' health and well-being can use features like health assessments and data analytics. 
 7. Health nutritionists: This app can be useful for nutritionists by facilitating meal planning, progress tracking, and nutritional insights to support clients in achieving their dietary goals.
 
-### d) What data will be saved in database?
+### d) Data being saved - 
 1. User Info: Personal details like age, weight, and goals to customize recommendations.
 2. Food Database: Comprehensive list of foods with nutritional info for accurate tracking which will be loaded into the database through an ETL pipeline.
 3. User Nutrition Data: Records of daily food intake for calorie and nutrient tracking.
 4. User Workout Data: Information on exercises and activities for fitness monitoring.
 
-### e) What will be the easiest part of this project?
+### e) Major feture of the project - 
 - Calculation of individual days health benefits based on the received user data.
 - The most easily achievable goal of the project would be to gather the inputs provided by the user on their food consumption.
 - It is one the direct inputs received from the user that will be analyzed and processed to produce the necessary analytics to the user.
 - Based on the reports generated the user's can plan their diet and nutrition accordingly to stay focused on their health and fitness goals.
 - Additionally, calculating the daily health benefits will made easier by performing basic analysis operations on the gathered data which would later be used for further analysis purposes.
 
-### f) What will be the most difficult part of this project?
+### f) Special part in this project - 
 - Configuring the ETL characteristics and executions to take in the excel data containing the nutritional info of the user as an input and transform it to NoSQL commands which would be directly fed into the database.
 - Processing this data to link the necessary fields and provide scope for multiple reporting features required by the user.
 - Integrating publish-subscribe (pub/sub) architecture in the application to allow asynchronous communication in the form of notifications to provide the user with periodic reports of their nutritional data.
